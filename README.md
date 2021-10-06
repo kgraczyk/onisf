@@ -1,4 +1,5 @@
 # Obliczenie Numeryczne i Symboliczne w Fizyce
+----
 ## Wykład 1
 - Rys historyczny. 
 - Funkcje czyste oraz funkcja Map. 
