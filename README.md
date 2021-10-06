@@ -5,4 +5,4 @@
 - Zasoby Wolfram Mathematica: matematyczne, astronomiczne, fizyczne, geograficzne. 
 - Przygotowywanie krótkich raportów w postaci tabel. 
 - Prezentacje graficzne wyników.
-- <a href="https://github.com/kgraczyk/onisf/blob/main/Lista1_2021.nb" download>Lista1.nb</a>, <a href="https://github.com/kgraczyk/onisf/blob/main/Lista1_2021.pdf" download>lista1.pdf</a>
+- <a href="https://github.com/kgraczyk/onisf/blob/main/Lista1_2021.nb" download="proposed_list1nb">Lista1.nb</a>, <a href="https://github.com/kgraczyk/onisf/blob/main/Lista1_2021.pdf" download="proposed_list1pdf>lista1.pdf</a>
