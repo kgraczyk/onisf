@@ -1,0 +1,323 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     11233,        315]
+NotebookOptionsPosition[      9920,        263]
+NotebookOutlinePosition[     10268,        278]
+CellTagsIndexPosition[     10225,        275]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Lista 2", "Title",
+ CellChangeTimes->{{3.716823755595172*^9, 3.716823758149371*^9}, {
+  3.716824851450934*^9, 3.716824865253424*^9}, {3.7794677402954044`*^9, 
+  3.7794677481096125`*^9}, {3.77954179177456*^9, 3.779541797984048*^9}, {
+  3.780154347018747*^9, 3.7801543475393896`*^9}},
+ ExpressionUUID -> "1ea4f207-8dca-41fa-b25f-273c4d14030f"],
+
+Cell[TextData[StyleBox["Data zwrotu: 1.11.2021",
+ FontWeight->"Bold"]], "Text",
+ CellChangeTimes->{{3.779541799430232*^9, 3.7795418348610373`*^9}, {
+  3.8115164575712214`*^9, 3.811516457775679*^9}, {3.8430550310154467`*^9, 
+  3.8430550382087564`*^9}},
+ ExpressionUUID -> "5ea9cfe5-7d80-47c5-9294-46c88d74b218"],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 1", "Section",
+ CellChangeTimes->{{3.7168237645643997`*^9, 3.7168237663599443`*^9}},
+ ExpressionUUID -> "b64f1a53-e742-4eb7-ac43-8f5925ec6a7d"],
+
+Cell["\<\
+Napisz funkcj\:0119, kt\[OAcute]ra dzia\[LSlash]aj\:0105c na wyra\:017cenie: 
+
+x^100 + x^(3 s) +Sin(4 x^2) + 100 x^2 - Log[Sin[x]] 
+
+wybierze  z niego pod-wyra\:017cenie postaci Sin ((COS TAM) (cos tam)^2) i \
+dla tego wyra\:017cenia zwr\[OAcute]ci wyra\:017cenie: \
+\[OpenCurlyDoubleQuote]COS TAM\[CloseCurlyDoubleQuote] jest \
+\[OpenCurlyDoubleQuote]cos tam\[CloseCurlyDoubleQuote]. 
+
+U\:017cyj Function  oraz StringJoin, ToString. \
+\>", "Text",
+ CellChangeTimes->{{3.7168237754593325`*^9, 3.716823792805436*^9}, {
+  3.716824229857342*^9, 3.7168242725077925`*^9}, {3.716824875088443*^9, 
+  3.716824875463492*^9}, {3.7201585327583165`*^9, 3.7201585420803328`*^9}, {
+  3.7794677252397714`*^9, 3.779467998760871*^9}, {3.77946849673225*^9, 
+  3.7794685321320333`*^9}, {3.7801543048743544`*^9, 3.7801543391928406`*^9}, {
+  3.780205282408626*^9, 3.7802052826438*^9}, {3.811516468016329*^9, 
+  3.811516521346712*^9}, {3.8430549098633313`*^9, 3.843054915175049*^9}, {
+  3.8430549556471643`*^9, 3.843054991029879*^9}},
+ ExpressionUUID -> "b2faf80c-57b6-456e-8f47-b671809dc13a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 2", "Section",
+ CellChangeTimes->{{3.7168241343187313`*^9, 3.716824137188813*^9}, {
+  3.747725106202129*^9, 3.747725108191904*^9}},
+ ExpressionUUID -> "7f41834f-0f9e-434a-bebc-3ecdc3f2a558"],
+
+Cell[TextData[{
+ "a) Napisz funkcj\:0119 zwracaj\:0105c\:0105 najwi\:0119ksz\:0105 \
+liczb\:0119 pierwsz\:0105 nie wi\:0119ksz\:0105 ni\:017c pobrany argument. \n\
+\nb) Narysuj wykres tej funkcji oraz rozk\[LSlash]ad g\:0119sto\:015bci liczb \
+pierwszych w liczbach naturalnych. \n\nc) Narysuj wykres korzystaj\:0105c z \
+funkcji ",
+ StyleBox["DiscretePlot",
+  FontWeight->"Bold"],
+ ".\n\nZadanie rozwi\:0105\:017c, korzystaj\:0105c tylko z funkcji: ",
+ StyleBox["Select, Range, PrimeQ, Length, Last",
+  FontWeight->"Bold"],
+ ". ",
+ StyleBox["UWAGA:",
+  FontWeight->"Bold"],
+ " ",
+ StyleBox["NIE KORZYSTA\[CapitalCAcute] Z FUNKCJI WBUDOWANYCH",
+  FontWeight->"Bold"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.7168241391889076`*^9, 3.716824143423483*^9}, 
+   3.716824194715004*^9, {3.7168249222361884`*^9, 3.716824937120086*^9}, {
+   3.7168258333134828`*^9, 3.7168258489037757`*^9}, {3.7201585213046627`*^9, 
+   3.720158521398416*^9}, {3.7489176077882137`*^9, 3.7489176375565395`*^9}, {
+   3.779467496610685*^9, 3.7794675166299324`*^9}, 3.779468593426787*^9, {
+   3.779468643585373*^9, 3.7794686449735804`*^9}, {3.779468711247117*^9, 
+   3.7794687122702513`*^9}, {3.779468874140108*^9, 3.7794688903760176`*^9}, {
+   3.81151654625804*^9, 3.811516576040393*^9}, {3.843055005312975*^9, 
+   3.8430550059914985`*^9}},
+ ExpressionUUID -> "2e69a607-e391-4d26-a665-a0216747b65f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 3", "Section",
+ CellChangeTimes->{{3.7168241984967403`*^9, 3.7168242002937016`*^9}, {
+  3.7477251102726107`*^9, 3.747725110541445*^9}},
+ ExpressionUUID -> "44c6f896-070f-42e8-903c-3ceda9b1a375"],
+
+Cell["\<\
+a) Znajd\:017a w programie Mathematica funkcje obs\[LSlash]uguj\:0105ce \
+jednostki fizyczne. 
+
+b) Podaj konwersj\:0119 jednostek, sekundy na godziny, kilometry na mile, Erg\
+\[CloseCurlyQuote]i na Joule. 
+
+c) Sprawd\:017a czy podane jednostki s\:0105 ze sob\:0105 sp\[OAcute]jne \
+(znajd\:017a odpowiedni\:0105 funkcj\:0119 w Help\[CloseCurlyQuote]ie).\
+\>", "Text",
+ CellChangeTimes->{{3.7168242028662853`*^9, 3.716824219496297*^9}, {
+   3.7168249161964216`*^9, 3.7168249183058877`*^9}, {3.716825854387085*^9, 
+   3.7168258675500574`*^9}, 3.747725159512247*^9, {3.8115165899233084`*^9, 
+   3.811516614598276*^9}, {3.8430550431375065`*^9, 3.8430550540500994`*^9}},
+ ExpressionUUID -> "82e4d10a-b865-4104-8075-2ba62c728b00"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 4", "Section",
+ CellChangeTimes->{{3.7168243213174205`*^9, 3.7168243235472765`*^9}, {
+  3.747725112488245*^9, 3.747725112749092*^9}},
+ ExpressionUUID -> "79d8ef10-d98b-4d80-ab97-d57a73e0fd5c"],
+
+Cell["\<\
+Wprowad\:017amy wyra\:017cenie:
+
+wyr1 = (C+(A+B x)^10+D y^2)^10
+
+a) przedstaw wyr1 postaci w pe\[LSlash]ni rozwini\:0119tej tzn. wykonane \
+zosta\[LSlash]y wszystkie dzia\[LSlash]ania;
+
+b) Przedstaw wyra\:017cenie wyr1 jako wielomian zmiennych A i D, upro\:015b\
+\[CAcute] wsp\[OAcute]\[LSlash]czynniki przy zmiennych A i D;
+
+c) Przedstaw wyra\:017cenie wyr1 jako wielomian zmiennych A, ale tak, \:017ce \
+ka\:017cdy wsp\[OAcute]\[LSlash]czynnik uzyskanego wielomianu b\:0119dzie \
+wielomianem wzgl\:0119dem wsp\[OAcute]\[LSlash]czynnika D, a wsp\[OAcute]\
+\[LSlash]czynniki wielomianu D by\[LSlash]y wielomianami w zmiennej y tzn. 
+
+\[OpenCurlyDoubleQuote] co\:015b tam + A ( co\:015b tam + D (co\:015b tam + y \
+(co\:015b tam )+ y^(...) ) + D^2(...)   ) + A^2( ....)  \[OpenCurlyDoubleQuote]
+
+d) uzyskany wynik przedstaw w postaci kodu Latex.\
+\>", "Text",
+ CellChangeTimes->{{3.716824329693256*^9, 3.716824705802271*^9}, {
+  3.7168249556213727`*^9, 3.7168250218853884`*^9}, {3.720158485831191*^9, 
+  3.7201585145511913`*^9}, {3.8430550619328356`*^9, 3.84305506251668*^9}},
+ ExpressionUUID -> "e2721f8e-1982-42d4-8ab5-1050b958c861"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 5", "Section",
+ CellChangeTimes->{{3.7168247611721115`*^9, 3.7168247634936113`*^9}, {
+  3.747725117994858*^9, 3.74772511836462*^9}},
+ ExpressionUUID -> "86ecbe00-8e8c-4025-a159-d56bf3ae5e5d"],
+
+Cell["\<\
+Rozwa\:017cmy list\:0119: 
+
+L = {{1,2},{A,B},{x,y},{1000,s}}
+
+u\:017cywaj\:0105c funkcji czystych zmapuj  poni\:017csze dzia\[LSlash]ania \
+na list\:0119 L:
+
+(a) x^2 \[Minus] y^2
+
+(b) Exp[\[Minus]x] + tan(x + y^2). 
+
+Uwaga: dzia\[LSlash]ania wykonywane s\:0105 na parach {x,y}.\
+\>", "Text",
+ CellChangeTimes->{{3.716824766332943*^9, 3.7168248461046405`*^9}, {
+  3.7168258822551622`*^9, 3.7168258835208597`*^9}, {3.7794675401413956`*^9, 
+  3.779467683299481*^9}, {3.7795418762455683`*^9, 3.7795418984921665`*^9}, {
+  3.780154371992524*^9, 3.780154374208585*^9}, {3.8115166524081593`*^9, 
+  3.811516674299685*^9}},
+ ExpressionUUID -> "ec896245-6c6e-4475-bd08-7997f0f04eb5"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 6", "Section",
+ CellChangeTimes->{{3.7168253296619053`*^9, 3.7168253306619525`*^9}, {
+  3.716825407884881*^9, 3.716825408338047*^9}, {3.747725120425351*^9, 
+  3.747725121817499*^9}},
+ ExpressionUUID -> "a0d2cb2d-5150-40ce-8f23-ed67f4f1a25f"],
+
+Cell["\<\
+Sprawd\:017a jakiego typu s\:0105 elementy listy 
+
+L=  {1.0, 2, 1/2, 1+I, A, \[Pi], Sqrt[2] , -1}. 
+
+Rozwa\:017c typy Integers, Reals, Algebraics, Rationals.\
+\>", "Text",
+ CellChangeTimes->{{3.7168253323338833`*^9, 3.716825473206532*^9}, 
+   3.716825891430087*^9, {3.8115166984071627`*^9, 3.811516705823329*^9}},
+ ExpressionUUID -> "b4acc2c1-5b24-4053-a32c-e1a626af4a6e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 7", "Section",
+ CellChangeTimes->{{3.7168254986295147`*^9, 3.716825500699831*^9}, {
+  3.7477251271362205`*^9, 3.747725127619913*^9}},
+ ExpressionUUID -> "99653a4d-755b-40fd-94dd-598b913e8d66"],
+
+Cell["\<\
+Niech dany b\:0119dzie u\[LSlash]amek 
+
+ul = (1+A)^2/(1 - C x)^3, 
+
+podaj funkcj\:0119 zwracaj\:0105c\:0105 licznik i mianownik wyra\:017cenia ul.\
+\>", "Text",
+ CellChangeTimes->{{3.7168255021243896`*^9, 3.7168255719653025`*^9}, {
+  3.8430550970280485`*^9, 3.8430551010045633`*^9}},
+ ExpressionUUID -> "f7eef45c-8e7d-4b7d-8f55-804d6e1ccaa3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 8", "Section",
+ CellChangeTimes->{{3.716825626572257*^9, 3.71682562869287*^9}, {
+  3.747725129593696*^9, 3.747725130121381*^9}},
+ ExpressionUUID -> "ce6302d4-97e8-4b8e-ab41-af89836a1fea"],
+
+Cell["\<\
+Rozwa\:017cmy wyra\:017cenie sin(6 \[Pi] / 17), przedstaw je za pomoc\:0105 \
+funkcji sqrt, wielokrotnie zagnie\:017cd\:017conej.  \
+\>", "Text",
+ CellChangeTimes->{{3.71682563001075*^9, 3.7168256814986377`*^9}, 
+   3.7201585544309874`*^9},
+ ExpressionUUID -> "635a36b9-1abf-4e6f-9a92-c29dc8ff922e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 9", "Section",
+ CellChangeTimes->{{3.778913248292976*^9, 3.778913250221816*^9}, {
+  3.8115168309696455`*^9, 3.8115168316498327`*^9}},
+ ExpressionUUID -> "52b47d2c-53ef-439a-949d-1c4cba6c635c"],
+
+Cell["\<\
+Narysuj map\:0119 \:015bwiata (rzut na globus, patrz na wyk\[LSlash]ad) z \
+konturami wszystkich kraj\[OAcute]w oraz konturem Polski na niebiesko. Niech \
+centralnym punktem b\:0119dzie Wroc\[LSlash]aw.\
+\>", "Text",
+ CellChangeTimes->{{3.7789132572260776`*^9, 3.7789133007257657`*^9}, {
+  3.811516804185285*^9, 3.811516808042012*^9}},
+ ExpressionUUID -> "da5842c7-c5e2-4190-bc1f-15cab726a497"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1366, 685},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+FrontEndVersion->"11.0 for Microsoft Windows (64-bit) (September 21, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 347, 5, 101, "Title"],
+Cell[930, 29, 310, 5, 30, "Text"],
+Cell[CellGroupData[{
+Cell[1265, 38, 157, 2, 70, "Section"],
+Cell[1425, 42, 1081, 20, 144, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2543, 67, 204, 3, 70, "Section"],
+Cell[2750, 72, 1368, 28, 144, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4155, 105, 208, 3, 70, "Section"],
+Cell[4366, 110, 734, 14, 106, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5137, 129, 206, 3, 70, "Section"],
+Cell[5346, 134, 1144, 24, 277, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6527, 163, 205, 3, 70, "Section"],
+Cell[6735, 168, 682, 19, 220, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7454, 192, 255, 4, 70, "Section"],
+Cell[7712, 198, 382, 9, 106, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8131, 212, 206, 3, 70, "Section"],
+Cell[8340, 217, 352, 9, 106, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8729, 231, 201, 3, 70, "Section"],
+Cell[8933, 236, 309, 6, 30, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9279, 247, 206, 3, 70, "Section"],
+Cell[9488, 252, 404, 7, 30, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
