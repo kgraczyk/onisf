@@ -1,0 +1,301 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     11542,        293]
+NotebookOptionsPosition[     10503,        253]
+NotebookOutlinePosition[     11019,        273]
+CellTagsIndexPosition[     10976,        270]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Lista 3", "Title",
+ CellChangeTimes->{{3.780069809018369*^9, 3.7800698159311867`*^9}},
+ ExpressionUUID -> "d4a07309-baca-4286-8c31-45e028367f16"],
+
+Cell[TextData[{
+ "Zwrot: ",
+ StyleBox["14.11.2021",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.7801545984675274`*^9, 3.7801546144808354`*^9}, {
+   3.8127991508381224`*^9, 3.812799154031246*^9}, 3.8127992816520896`*^9, {
+   3.8134686081563807`*^9, 3.813468650156658*^9}, {3.8442609779173093`*^9, 
+   3.8442610090195546`*^9}},
+ ExpressionUUID -> "4e54280d-99da-4b6a-9935-b040824a98f4"],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 1", "Section",
+ CellChangeTimes->{{3.748857601451433*^9, 3.748857603946105*^9}},
+ ExpressionUUID -> "c47611b8-cd1f-454d-b127-bf91282cad16"],
+
+Cell[TextData[{
+ "a) Oblicz poni\:017csze wyra\:017cenie i wyra\:017a wynik w postaci \
+naukowej (Scientific form), wy\:015bwietlaj\:0105c 5 znacz\:0105cych cyfr.\n\n\
+",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["10", 
+      RowBox[{"-", "24"}]], "*", 
+     SuperscriptBox["10", "12"]}], 
+    SuperscriptBox["10", 
+     RowBox[{"-", "14"}]]], TraditionalForm]],
+  ExpressionUUID -> "590f0c3c-9d2c-410d-8a96-7eaab9b06ddc"],
+ "\[Times]",
+ Cell[BoxData[
+  FormBox[
+   SqrtBox[
+    FractionBox["3200", 
+     SuperscriptBox["2", "5"]]], TraditionalForm]],
+  ExpressionUUID -> "a63e2ae4-8939-4d62-8ee9-590a16ccfbe0"]
+}], "Text",
+ CellChangeTimes->{{3.7488576125536947`*^9, 3.748857800411872*^9}, {
+  3.7800697525292406`*^9, 3.7800697539378695`*^9}},
+ ExpressionUUID -> "3efe76b0-3026-4c8f-804c-d11c11928582"],
+
+Cell[TextData[{
+ "Uwaga, funkcja ",
+ StyleBox["N",
+  FontWeight->"Bold"],
+ " mo\:017ce by\[CAcute] pomocna!\n\nb) Oblicz sin(36\[Degree]) z \
+dok\[LSlash]adno\:015bci\:0105 36 miejsc po przecinku.\n\nc) Oblicz \
+numerycznie ca\[LSlash]k\:0119"
+}], "Text",
+ CellChangeTimes->{{3.748857824397466*^9, 3.7488578428522625`*^9}, {
+  3.780069834577903*^9, 3.780069836505165*^9}, {3.780069952721904*^9, 
+  3.780070008424966*^9}, {3.8127993684242487`*^9, 3.812799385655019*^9}},
+ ExpressionUUID -> "99f896ac-68a5-4766-9416-5004c71fc65b"],
+
+Cell[BoxData[
+ RowBox[{
+  SubsuperscriptBox["\[Integral]", "0", "1"], 
+  RowBox[{
+   FractionBox[
+    SuperscriptBox["x", "2"], 
+    RowBox[{
+     SuperscriptBox["E", "x"], "-", "1"}]], 
+   RowBox[{"\[DifferentialD]", "x"}]}]}]], "Input",
+ CellChangeTimes->{{3.748857904305807*^9, 3.7488579336059246`*^9}},
+ ExpressionUUID -> "862476ca-3cdc-42a5-b75c-435f13de600a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 2", "Section",
+ CellChangeTimes->{{3.7178395439896803`*^9, 3.717839545696063*^9}, {
+  3.748857872660437*^9, 3.748857873587723*^9}, {3.8127993909252243`*^9, 
+  3.812799391066438*^9}},
+ ExpressionUUID -> "9252b650-9e2d-40bf-9d59-0003cc89ef5c"],
+
+Cell["\<\
+Korzystaj\:0105c z funkcji Table wypisz 1000 kolejnych liczb Fibonacciego \
+(funkcja Fibonacci). Podaj  ile  otrzymana lista  zawiera liczb parzystych i \
+nieparzystych. Nast\:0119pnie  pozostaw  w na li\:015bcie tylko liczby \
+parzyste. Wykonaj zadanie r\[OAcute]wnie\:017c korzystaj\:0105c z funkcji \
+Range zamiast Table.\
+\>", "Text",
+ CellChangeTimes->{{3.717839548450206*^9, 3.717839563336342*^9}, {
+  3.717839731567676*^9, 3.717839735200776*^9}, {3.71785351462434*^9, 
+  3.7178535348207808`*^9}, {3.7488574240043445`*^9, 3.748857464014105*^9}, {
+  3.7489172897566347`*^9, 3.7489173244231005`*^9}, {3.78015382766632*^9, 
+  3.780153828242815*^9}},
+ ExpressionUUID -> "1cad3c12-bf34-41b4-af00-58c00cc2fcf2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 3", "Section",
+ CellChangeTimes->{{3.71783957602381*^9, 3.717839577326737*^9}, {
+  3.748858007394597*^9, 3.748858007554336*^9}, {3.812799394537711*^9, 
+  3.8127993946727457`*^9}},
+ ExpressionUUID -> "5d5cd9e9-b0c6-4fd3-949e-32b3f261ccd0"],
+
+Cell[TextData[{
+ "Utw\[OAcute]rz macierz liczb, kt\[OAcute]ra w kolejnych wierszach zawiera \
+kolejne liczby (jeden wiersz - jedna liczba) Fibonacciego w zapisie dw\
+\[OAcute]jkowym oraz sz\[OAcute]stko-wym.  Niech ka\:017cdy wiersz ma d\
+\[LSlash]ugo\:015b\[CAcute] 100, a ca\[LSlash]a macierz rozmiar 100x100.  \
+Skorzystaj z funkcji ",
+ StyleBox["IntegerDigits[liczba, podstawa, d\[LSlash]ugo\:015b\[CAcute] ci\
+\:0105gu]",
+  FontWeight->"Bold"],
+ ".  Korzystaj\:0105c z funkcji ",
+ StyleBox["MatrixPlot",
+  FontWeight->"Bold"],
+ " wykonaj rysunki dla obydwu macierzy. Korzystaj\:0105c z funkcji ",
+ StyleBox["Export ",
+  FontWeight->"Bold"],
+ "zapisz wynik w postaci rysunku w formacie eps oraz jpeg."
+}], "Text",
+ CellChangeTimes->{{3.7178396223136997`*^9, 3.717839672855069*^9}, {
+  3.71783979732682*^9, 3.717839810383294*^9}, {3.717839853638603*^9, 
+  3.717839855190934*^9}, {3.717839990598249*^9, 3.717840023550477*^9}, {
+  3.7178535506903133`*^9, 3.717853551447815*^9}, {3.720158639131351*^9, 
+  3.720158647729653*^9}, {3.748917364454768*^9, 3.748917391624075*^9}},
+ ExpressionUUID -> "38e0f06d-e296-4a3e-a95c-057be57cc51e"],
+
+Cell[BoxData[
+ GraphicsBox[RasterBox[CompressedData["
+1:eJzt3UHO3TQUBeBKbIENsBKGzFkCgjFzFsWCmHUHLAGhv0iIqhVur5/Pcb5K
+6IMqcq7z8uITO3l899OvP/7yzbt3737+8M/f//7258/vySf4/rdvf//h/R8f
+/vufP3Pt3Nr+VD3t7aTVObX9VP27j+dU/VP9PVXPqf22/P1u0+ohk027/qTt
+d9W0/JCWu1Ztydtp9e/evuU6cKpfq7bkk5Y6yWRPXSfTtk8bT1dtGXfS2p+y
+JZ9Mbb/aTkvOPNXftOvJap0k931f0uaLdu837f731vH91jqn6tltWl5t6Vda
+O1Om1UM2mnb/lTZ+pd23pt3/puWWqfpb5mFajk/L5z61/e52SPbacl1Ny2Or
+puXVluv/0/LPrTkkrV8t173dptVD3mTadXuq/VvXAadsGU/T8vCt+91dZ/s6
+eNr3Je36RvL118+p7Vv2mzYuTNW/e7+7Tcurae2v7jdtfE/7XqfZUif5ZFvm
+JVrqSbsft+6T2d+pelo+97T2045ny3WY5Ndfl9JMm4dpud9Pu8639Lfd9vml
+3du35Jm0eki+/nu92k7L37eYdt99qs5T20/Z/jnu7m/a97e9fpI5pq0fnarz
+1utqS75abX/KtM897fNqr2dqv6um5V6SOaZd93b3K639lvy225bj0HL+T+23
+5Txvn19NO89Jfr1pz2Pcel+cdt1uqadl/G2p89T2q6blwFP9Inmft47vq6bV
+n3b9T1svS8sJu007P09tv7ud9jpJ5nvr/MPU9lP1t+SNtHmhlvNwtf3ddaad
+h1M+7XMn2eup+8GW+Ypbc0L7eNqeq6f2u3v7tO9X+/lMki3X5939TRvHT/Vr
+d/3t42xa/jxVZ9pxbv/+knyOT5vP2b3f1Xamtj+13/Z1xpY8s7p92ufYcpzb
+7ytJ5ph2n56WQ1rmbVr6O2X78TxVf1oe213nqnIUyd2255xT7a/ut6XOljzQ
+Pv+Qth53ql9px6Hl/CHZa0v+ab9PP2XacU7LvVP1p+Wl9u9v+3olSX7KtPWR
+tHmeqXbS5h9Otd+S83e3n3aeP+34kORuW+YB2sejtHwlB37ZftOO26pp5+3T
+5plJMm0caRl/p9pvWU9pGe+cz69p59bnP0lyty3rgKdMW/c8Vf+t58OpvHEq
+V7d8ji3nD0l+ypb74lP1tOSQlv1OmZaLdtuyHpr2uZNkmrfmk5Zxs73+lnmb
+1XZWbflenOrX1H5Jst2W63z79mnPX6XNj01tP2XaPGRaXiVJft5b74un6pzq
+V3suXW0nrb9T9bfsN23e71T7JJlm2rzK1H5P9fdUO2n9asnzacdz1bTj3HKf
+RZKnbFnnOmXa/MbT8tVUv06t66Wtz06Z9j0lyTRvvT63jF/GqS/z1rya1k7L
+/B5Jtph2XW1fp2hfz2qfLzrV39Xt045P2nWAJG+1fVybMi3vtee33e2n5dK0
+fslFJJlp2n337jpX25+qs2W/acc5LYevbv+0858k+Wba/X5aPafa311PWq6b
+Mi0nnMq9U+2TJGdNmw9JW0dreW6tpb+rpuXGqTqflj9Jkm+mrVOk5bqpOlfb
+2W378UlrPy33yl0kedaW63lajpqqc3c7Lf06tf3udk7tV74iyUxbxt/d/W3P
+RbttXxd72nlOkszUusxrbM8naTkzLQemHR+S5FlvHfen6kmbD7k197bnlrTn
+0EiSmbbklvb+Pu15pNV62vP5VJ0kybtNG6fS5h9Wt0+bn0mbf0vrb8s8Kkmy
+y5br/Kn1qbTxuj3PnGqnpb8kybttHy/Sxtn2+a7d26flxt3tkCT5b9PGx7R1
+zLQclZYHWj6vln6RJO82bR1tqs405YTP7zftPb72840keda08T3t+ai0HHjr
+c0dpuSWtHpLkHbbnlvb5jbT22/PhlHIXSXKHaeNy2jzY7n5N2TLfOFX/lPIV
+SXKHafNCaXlpql+n6pzab3uOIkkywZZ1n5Yctbv+lnasD5Ik+bFpz423PPeV
+th66Wmfa9mnHjSTJrzFtniFtnS5tv2l/f8q0ekiS/D+254q0/aYdz9XtW94z
+lbtIko3KOa/Z7+562vu7e78kSSaYtm7Vvv61alq/nnb8SZLcYfv8Vdq82aq3
+zu+lHWeSJBNMm69oeV8vbb6u/biRJPkEW9b1WuZP0ubf0j4XkiSfYNq8x+46
+V9tvn59peR6eJMknmPa+/6l+7e7v0+ohSZIfm5aj0p6DOtWv3e2QJMl9tuQK
+7c+2f6odkiSfbNrvD6SN72nrgC37JUmSH5v23tyt65hp/SJJkvv0HPuX1ZOW
+W9rrJ0nyCd76uwFp83JT7chXJEn2mvb8dlo9p/pLkiTvM+05pZbnndKefyNJ
+kjmm/b5B2rxWy3uFJEky31M5pGU+bbdyFEmSz7FlfTDtdyF275ckSfaa9vx5
+S+5qaZ8kSebYMk+Vlg9JkiRXTftdqbTnu1aV60iSZFreSFuXTMtvJEmy17R1
+wLQ8I0eRJMkp094ffNp7kSRJ8j7T8kPLPBtJkuSqLTkkbZ2RJEly1bT3+G79
+PXmSJMm0/NP+vD1JkmTa8+2n6idJktxt++9WyV0kSbLFluem5CuSJNmi/EOS
+JPka055Ll99IkuStpv1/q0mSJNv1/iBJkuRr9P/HIUmSfI1p7yGSJEm2KxeR
+JEm+RvNXJEmSr9H7gyRJkrPKUSRJkq9R7iJJkpz1v/nqL4sLTTA=
+   "], {{0, 0}, {100, 
+   100}}, {0, 1}],
+  Frame->True,
+  FrameLabel->{None, None},
+  FrameTicks->{{{{99.5, 
+       FormBox["1", TraditionalForm]}, {80.5, 
+       FormBox["20", TraditionalForm]}, {60.5, 
+       FormBox["40", TraditionalForm]}, {40.5, 
+       FormBox["60", TraditionalForm]}, {20.5, 
+       FormBox["80", TraditionalForm]}, {0.5, 
+       FormBox["100", TraditionalForm]}}, {{99.5, 
+       FormBox["1", TraditionalForm]}, {80.5, 
+       FormBox["20", TraditionalForm]}, {60.5, 
+       FormBox["40", TraditionalForm]}, {40.5, 
+       FormBox["60", TraditionalForm]}, {20.5, 
+       FormBox["80", TraditionalForm]}, {0.5, 
+       FormBox["100", TraditionalForm]}}}, {{{0.5, 
+       FormBox["1", TraditionalForm]}, {19.5, 
+       FormBox["20", TraditionalForm]}, {39.5, 
+       FormBox["40", TraditionalForm]}, {59.5, 
+       FormBox["60", TraditionalForm]}, {79.5, 
+       FormBox["80", TraditionalForm]}, {99.5, 
+       FormBox["100", TraditionalForm]}}, {{0.5, 
+       FormBox["1", TraditionalForm]}, {19.5, 
+       FormBox["20", TraditionalForm]}, {39.5, 
+       FormBox["40", TraditionalForm]}, {59.5, 
+       FormBox["60", TraditionalForm]}, {79.5, 
+       FormBox["80", TraditionalForm]}, {99.5, 
+       FormBox["100", TraditionalForm]}}}},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  Method->{
+   "AxisPadding" -> Scaled[0.02], "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultPlotStyle" -> Automatic, "DomainPadding" -> Scaled[0.02], 
+    "RangePadding" -> Scaled[0.05]}]], "Input",
+ ExpressionUUID -> "c92c573f-0671-489c-8ead-74df5b797be1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 4", "Section",
+ CellChangeTimes->{{3.780070020243924*^9, 3.780070027732595*^9}, 
+   3.8127993986872263`*^9},
+ ExpressionUUID -> "77bc9218-58f0-41a9-b956-17937ad58ea3"],
+
+Cell["\<\
+Napisz funkcj\:0119 zwracaj\:0105c\:0105 liczb\:0119 Fibonacciego u\:017cywaj\
+\:0105c tylko funkcji ze zbioru: {Last, Drop,Array, AppendTo }\
+\>", "Text",
+ CellChangeTimes->{{3.7800700354812355`*^9, 3.7800700612943506`*^9}, {
+   3.780070535322014*^9, 3.780070606945326*^9}, 3.780206168971878*^9, 
+   3.8442609953872104`*^9},
+ ExpressionUUID -> "06ba8f5a-888a-4452-9be9-25b304755ac1"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1280, 637},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+PrintingCopies->1,
+PrintingPageRange->{32000, 32000},
+PrintingOptions->{"Magnification"->1.,
+"PaperOrientation"->"Portrait",
+"PaperSize"->{595.3199999999999, 841.92}},
+FrontEndVersion->"11.0 for Microsoft Windows (64-bit) (September 21, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 151, 2, 101, "Title"],
+Cell[734, 26, 396, 9, 30, "Text"],
+Cell[CellGroupData[{
+Cell[1155, 39, 153, 2, 70, "Section"],
+Cell[1311, 43, 836, 24, 99, "Text"],
+Cell[2150, 69, 528, 11, 106, "Text"],
+Cell[2681, 82, 365, 10, 53, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3083, 97, 255, 4, 70, "Section"],
+Cell[3341, 103, 721, 12, 49, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4099, 120, 252, 4, 70, "Section"],
+Cell[4354, 126, 1133, 22, 68, "Text"],
+Cell[5490, 150, 4370, 82, 364, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9897, 237, 181, 3, 70, "Section"],
+Cell[10081, 242, 394, 7, 30, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
