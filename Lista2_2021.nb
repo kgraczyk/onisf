@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     11233,        315]
-NotebookOptionsPosition[      9920,        263]
-NotebookOutlinePosition[     10268,        278]
-CellTagsIndexPosition[     10225,        275]
+NotebookDataLength[     13187,        368]
+NotebookOptionsPosition[     11569,        305]
+NotebookOutlinePosition[     11917,        320]
+CellTagsIndexPosition[     11874,        317]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -258,10 +258,52 @@ centralnym punktem b\:0119dzie Wroc\[LSlash]aw.\
  CellChangeTimes->{{3.7789132572260776`*^9, 3.7789133007257657`*^9}, {
   3.811516804185285*^9, 3.811516808042012*^9}},
  ExpressionUUID -> "da5842c7-c5e2-4190-bc1f-15cab726a497"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie dla zainteresowanych", "Section",
+ CellChangeTimes->{{3.8437135008137226`*^9, 3.843713507677885*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["1. Problem", "Subsection",
+ CellChangeTimes->{{3.8437135506917014`*^9, 3.8437135568384542`*^9}}],
+
+Cell[TextData[{
+ "Rozwa\:017cmy jednorodnie na\[LSlash]adowan\:0105 (z g\:0119sto\:015bci\
+\:0105 powierzchniow\:0105 \[Sigma]) sfer\:0119 o promieniu R obracaj\:0105c\
+\:0105 si\:0119 ze sta\[LSlash]\:0105 pr\:0119dko\:015bci\:0105 k\:0105tow\
+\:0105 \[Omega]. Narysuj potencja\[LSlash] wektorowy, r\[OAcute]wnie\:017c \
+linie si\[LSlash] pola B. \n\nNiech: \ni) kula obraca si\:0119 (w symulacji);\
+\nii) u\:017cytkownik, mo\:017ce wybra\[CAcute] kilka warto\:015bci \
+pr\:0119dko\:015bci k\:0105towej oraz g\:0119sto\:015bci powierzchniowej \n\
+Wynik ko\:0144cowy przedstaw w postaci filmu w formacie avi.\n\nzobacz ",
+ StyleBox["Podstawy elektrodynamiki",
+  FontSlant->"Italic"],
+ " - Griffiths David \t"
+}], "Text",
+ CellChangeTimes->{{3.843713559827879*^9, 3.843713563708952*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["II. Problem", "Subsection",
+ CellChangeTimes->{{3.8437136088908787`*^9, 3.8437136113258247`*^9}}],
+
+Cell["\<\
+Wykonaj dynamiczn\:0105 wizualizacje drugiego prawo Keplera. W tym celu rozwa\
+\:017c ruch dwu punkt\[OAcute]w po orbicie Ziemi wok\[OAcute]\[LSlash] S\
+\[LSlash]o\:0144ca. Niech dla zadanego odst\:0119pu czasu zakre\:015blane b\
+\:0119d\:0105 obszary ruchu punkt\[OAcute]w i podawana b\:0119dzie \
+powierzchnia tych obszar\[OAcute]w.\
+\>", "Text",
+ CellChangeTimes->{{3.843713649533177*^9, 3.8437136593313894`*^9}}]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1366, 685},
+WindowSize->{1280, 677},
 WindowMargins->{{-8, Automatic}, {Automatic, -8}},
 FrontEndVersion->"11.0 for Microsoft Windows (64-bit) (September 21, 2016)",
 StyleDefinitions->"Default.nb"
@@ -315,6 +357,17 @@ Cell[8933, 236, 309, 6, 30, "Text"]
 Cell[CellGroupData[{
 Cell[9279, 247, 206, 3, 70, "Section"],
 Cell[9488, 252, 404, 7, 30, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9929, 264, 115, 1, 70, "Section"],
+Cell[CellGroupData[{
+Cell[10069, 269, 102, 1, 49, "Subsection"],
+Cell[10174, 272, 786, 13, 182, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10997, 290, 103, 1, 49, "Subsection"],
+Cell[11103, 293, 426, 7, 49, "Text"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }
