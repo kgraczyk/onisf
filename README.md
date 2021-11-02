@@ -25,4 +25,17 @@
 - Funkcja Flatten. 
 - Wektory, macierze, wizualizacja macierzy, macierze Pauliego. 
 - Wyrażenie jako lista, lista jako wyrażenie.
-- <a id="raw-url" href="https://github.com/kgraczyk/onisf/blob/main/Lista3_2021.nb" download> Lista3.nb</a>
+- <a id="raw-url" href="https://github.com/kgraczyk/onisf/blob/main/Lista3_2021.nb" download> Lista3_2021.nb</a>
+
+
+## Wykład 4
+
+- Fraktale:
+	- rekurencja 
+	- dynamiczna definicja funkcji. 
+- Funkcje: Map, MapAt, MapThread, Inner, Outer, Thread, Apply. 
+- Znajdowanie dopasowania do punktów: funkcja fit. 
+- Liczby losowe (pseudolosowe). 
+- Obwody elektryczne.
+- <a id="raw-url" href="https://github.com/kgraczyk/onisf/blob/main/Lista3_2021.nb" download> Lista4_2021.nb</a>
+
