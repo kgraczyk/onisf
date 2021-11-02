@@ -25,7 +25,7 @@
 - Funkcja Flatten. 
 - Wektory, macierze, wizualizacja macierzy, macierze Pauliego. 
 - Wyrażenie jako lista, lista jako wyrażenie.
-- <a id="raw-url" href="https://github.com/kgraczyk/onisf/blob/main/Lista3_2021.nb" download> Lista3_2021.nb</a>
+- <a id="raw-url" href="https://github.com/kgraczyk/onisf/blob/main/Lista3_2021.nb" download> Lista3.nb</a>
 
 
 ## Wykład 4
@@ -37,5 +37,5 @@
 - Znajdowanie dopasowania do punktów: funkcja fit. 
 - Liczby losowe (pseudolosowe). 
 - Obwody elektryczne.
-- <a id="raw-url" href="https://github.com/kgraczyk/onisf/blob/main/Lista3_2021.nb" download> Lista4_2021.nb</a>
+- <a id="raw-url" href="https://github.com/kgraczyk/onisf/blob/main/Lista4_2021.nb" download> Lista4.nb</a>
 
