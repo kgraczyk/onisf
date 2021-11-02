@@ -1,0 +1,246 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      8248,        238]
+NotebookOptionsPosition[      7260,        198]
+NotebookOutlinePosition[      7774,        218]
+CellTagsIndexPosition[      7731,        215]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Lista 4", "Title",
+ CellChangeTimes->{{3.780808767412548*^9, 3.7808087690321226`*^9}},
+ ExpressionUUID -> "7bf3fe71-7043-4340-8b2d-0992798e271f"],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 1", "Section",
+ CellChangeTimes->{{3.748857601451433*^9, 3.748857603946105*^9}},
+ ExpressionUUID -> "c47611b8-cd1f-454d-b127-bf91282cad16"],
+
+Cell["\<\
+Wygeneruj 1000 liczb pierwszych w parach {1, liczba pierwsza} i zapisz w \
+pliku o nazwie \[OpenCurlyDoubleQuote]pierwsze.dat\[CloseCurlyDoubleQuote]. \
+\>", "Text",
+ CellChangeTimes->{{3.7488576125536947`*^9, 3.748857800411872*^9}, {
+  3.780069621055643*^9, 3.7800696316892614`*^9}, {3.780763093281954*^9, 
+  3.7807631799896736`*^9}, {3.8448717575761957`*^9, 3.8448717642071047`*^9}},
+ ExpressionUUID -> "3efe76b0-3026-4c8f-804c-d11c11928582"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 2", "Section",
+ CellChangeTimes->{{3.7488578830492506`*^9, 3.7488578850512915`*^9}},
+ ExpressionUUID -> "7ee457df-7287-45a1-9121-aa95ce8456d5"],
+
+Cell["\<\
+Korzystaj\:0105c z operator\[OAcute]w zasi\:0119gu ( ;; ) oraz funkcji Range \
+skonstruuj list\:0119 zawieraj\:0105c\:0105 co trzeci\:0105 liczb\:0119 \
+(naturaln\:0105), kt\[OAcute]re s\:0105 mniejsze od 1001 oraz wi\:0119ksze od \
+0, i nie s\:0105 podzielne przez 5.\
+\>", "Text",
+ CellChangeTimes->{{3.7807628590528855`*^9, 3.780763030278837*^9}, {
+  3.8448717686324825`*^9, 3.8448718152173147`*^9}},
+ ExpressionUUID -> "158e66d5-8481-4276-a552-c63b63200e46"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 3", "Section",
+ CellChangeTimes->{{3.717840031437183*^9, 3.717840033229463*^9}, {
+  3.7488580115155306`*^9, 3.7488580117695723`*^9}, {3.7807631937501173`*^9, 
+  3.7807631941341763`*^9}},
+ ExpressionUUID -> "06366234-7b20-4b72-ac65-a33c395cc35c"],
+
+Cell["\<\
+Rozwa\:017cmy trzy wektory (2,3,1), (3,2,\[Minus]1) oraz (\[Minus]2,1,2),  \
+znajd\:017a  baz\:0119  ortogonaln\:0105 generowan\:0105 przez te wektory? \
+Nast\:0119pnie policz k\:0105ty pomi\:0119dzy wektorami bazowymi oraz pomi\
+\:0119dzy wektorami pocz\:0105tkowymi.\
+\>", "Text",
+ CellChangeTimes->{{3.717840035486195*^9, 3.717840089252939*^9}, {
+  3.7489174287364607`*^9, 3.7489174307818995`*^9}},
+ ExpressionUUID -> "f4a058bd-fe78-4c15-be21-cc028e63e7e9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 4", "Section",
+ CellChangeTimes->{{3.717840202867772*^9, 3.717840208108048*^9}, {
+  3.748858017005129*^9, 3.7488580177228374`*^9}, {3.780763203250128*^9, 
+  3.7807632038132195`*^9}},
+ ExpressionUUID -> "16d85332-0711-45b4-93a1-57d26be5878b"],
+
+Cell[TextData[{
+ "Udowodnij, \:017ce dla dowolnych macierzy wymiaru 3\[Times]3 \
+spe\[LSlash]niony jest zwi\:0105zek:\n\n",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["A", "3"], TraditionalForm]],
+  ExpressionUUID -> "f9b569ea-0d61-4a50-9620-87665ebb6e62"],
+ "- Tr(A) A^2 + (1/2)( Tr(A)^2 - Tr(A^2))A -Det(A) I = 0\n\nPodpowied\:017a: \
+skorzystaj z funkcji ",
+ StyleBox["Array",
+  FontWeight->"Bold"],
+ ". UWAGA: dow\[OAcute]d przeprowad\:017a \:015bci\:015ble, ale zacznij od  \
+wygenerowania 100 przypadkowych macierzy i sprawdzenia czy powy\:017csza to\
+\:017csamo\:015b\[CAcute] jest spe\[LSlash]niona."
+}], "Text",
+ CellChangeTimes->{{3.717840223350258*^9, 3.717840376546775*^9}, {
+  3.717853594767584*^9, 3.7178536773573327`*^9}, {3.7201586665065613`*^9, 
+  3.720158671398261*^9}, {3.748858054206514*^9, 3.7488580698847837`*^9}},
+ ExpressionUUID -> "a8bcc4f6-e139-4a5f-8683-bc8b6805f04f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 5", "Section",
+ CellChangeTimes->{{3.7178409811780043`*^9, 3.717840982842503*^9}, 
+   3.7179110567577324`*^9, {3.748858023921474*^9, 3.7488580246401463`*^9}, {
+   3.780763262036205*^9, 3.7807632625126143`*^9}, 3.7819751943362694`*^9, {
+   3.814618777051519*^9, 3.8146187775751305`*^9}},
+ ExpressionUUID -> "96136410-9ede-4a91-af45-63921ac37f3b"],
+
+Cell[TextData[{
+ "Wygeneruj wielomian rz\:0119du 100 o losowych \
+wsp\[OAcute]\[LSlash]czynnikach ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["a", "i"], TraditionalForm]],
+  ExpressionUUID -> "9d301a91-4d89-43a8-9c38-c1504c614d2b"],
+ " (i=0,...,100) wybranych z zakresu (-1,1). Wielomian ten b\:0119dzie mia\
+\[LSlash] og\[OAcute]ln\:0105 posta\[CAcute]:\n\nW(x) = ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["a", "0"], TraditionalForm]],
+  ExpressionUUID -> "ef814e4d-c901-4613-90df-071eab7c3045"],
+ "  + ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["a", "1"], TraditionalForm]],
+  ExpressionUUID -> "4cc25c1f-560a-4c8f-8d6e-c0f7ef993450"],
+ "x  + ... + ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["a", "100"], TraditionalForm]],
+  ExpressionUUID -> "613bb741-37be-4205-8283-98ec6eed787e"],
+ "  ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["x", "100"], TraditionalForm]],
+  ExpressionUUID -> "f92bf9fd-5ed9-4435-92bc-a8fb39798796"],
+ "\n\nNast\:0119pnie:\n\t\na) napisz napisz funkcj\:0119/procedur\:0119, kt\
+\[OAcute]ra w dzia\[LSlash]aniu na ten wielomian zwraca:\n\nSin(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["a", "0"], TraditionalForm]],
+  ExpressionUUID -> "1e311187-dadd-4a52-a8db-9e9850fe3748"],
+ ")  + Sin(",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["a", "1"], ")"}], TraditionalForm]],
+  ExpressionUUID -> "118c6921-2643-4ca7-88c2-7b5ef05f197f"],
+ " x  + ... + Sin(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["a", "100"], TraditionalForm]],
+  ExpressionUUID -> "6696e92f-ff8c-4eef-a3fb-fddec5852786"],
+ ")  ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["x", "100"], TraditionalForm]],
+  ExpressionUUID -> "821cc1ee-2ea7-4442-8d68-587c992a1f90"],
+ "\n\nb) napisz funkcj\:0119/procedur\:0119, kt\[OAcute]ra dzia\[LSlash]aj\
+\:0105c na W(x) zwraca\n\nSin(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["a", "0"], TraditionalForm]],
+  ExpressionUUID -> "f397b0ec-e8be-4cab-bd52-aac3ee536c0e"],
+ ")  + Sin(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["a", "1"], TraditionalForm]],
+  ExpressionUUID -> "430bcd52-ab61-4695-ac12-f43ece88ec20"],
+ "x)  + ... + Sin(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["a", "100"], TraditionalForm]],
+  ExpressionUUID -> "b5e11c62-2b86-4c50-8d2b-ec373a514c81"],
+ " ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["x", "100"], TraditionalForm]],
+  ExpressionUUID -> "3db6ebe4-d2b9-4371-9c98-3d3b4cc2df10"],
+ ")\n\nPodpowied\:017a: skorzystaj z funkcji Map itd."
+}], "Text",
+ CellChangeTimes->{{3.717840985586001*^9, 3.717841176537591*^9}, {
+   3.7178412265697947`*^9, 3.717841357074574*^9}, {3.717841405297154*^9, 
+   3.717841425249104*^9}, 3.7178541879820933`*^9, {3.748917680780672*^9, 
+   3.7489177163218956`*^9}, {3.748917839030898*^9, 3.7489178727351832`*^9}, {
+   3.78076336064863*^9, 3.780763360858884*^9}},
+ ExpressionUUID -> "03caa4e7-22a6-438b-9801-f0f46ca73db8"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1028, 681},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
+PrintingCopies->1,
+PrintingPageRange->{32000, 32000},
+PrintingOptions->{"Magnification"->1.,
+"PaperOrientation"->"Portrait",
+"PaperSize"->{595.1999999999999, 841.68}},
+FrontEndVersion->"11.0 for Microsoft Windows (64-bit) (September 21, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 151, 2, 101, "Title"],
+Cell[CellGroupData[{
+Cell[756, 28, 153, 2, 70, "Section"],
+Cell[912, 32, 454, 7, 30, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1403, 44, 157, 2, 70, "Section"],
+Cell[1563, 48, 472, 8, 49, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2072, 61, 259, 4, 70, "Section"],
+Cell[2334, 67, 470, 8, 49, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2841, 80, 255, 4, 70, "Section"],
+Cell[3099, 86, 896, 18, 127, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4032, 109, 359, 5, 70, "Section"],
+Cell[4394, 116, 2838, 78, 323, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
