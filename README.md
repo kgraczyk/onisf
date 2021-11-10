@@ -34,8 +34,12 @@
 	- rekurencja 
 	- dynamiczna definicja funkcji. 
 - Funkcje: Map, MapAt, MapThread, Inner, Outer, Thread, Apply. 
+- <a id="raw-url" href="https://github.com/kgraczyk/onisf/blob/main/Lista4_2021.nb" download> Lista4.nb</a>
+
+## Wykład 5
+
 - Znajdowanie dopasowania do punktów: funkcja fit. 
 - Liczby losowe (pseudolosowe). 
 - Obwody elektryczne.
-- <a id="raw-url" href="https://github.com/kgraczyk/onisf/blob/main/Lista4_2021.nb" download> Lista4.nb</a>
+- <a id="raw-url" href="https://github.com/kgraczyk/onisf/blob/main/Lista5_2021.nb" download> Lista5.nb</a>
 
