@@ -1,0 +1,338 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     11291,        328]
+NotebookOptionsPosition[     10682,        301]
+NotebookOutlinePosition[     11028,        316]
+CellTagsIndexPosition[     10985,        313]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Lista 6", "Title",
+ CellChangeTimes->{{3.7831835932382965`*^9, 3.7831835949566507`*^9}},
+ ExpressionUUID -> "1fd005b6-c673-4bba-8435-1840dc6442e9"],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 1", "Section",
+ CellChangeTimes->{{3.717840421154582*^9, 3.717840422978417*^9}, 
+   3.7179110521930075`*^9, {3.748858020508803*^9, 3.74885802122663*^9}, 
+   3.7831835974560413`*^9},
+ ExpressionUUID -> "7a82a23e-ebe2-481b-94b6-567a8791e69c"],
+
+Cell[TextData[{
+ "Dokonano pomiaru odleg\[LSlash]o\:015bci jakie pokonuj\:0119 cia\[LSlash]o \
+swobodnie opadaj\:0105ce i zamieszczono w tabelce poni\:017cej:\n\n",
+ Cell[BoxData[
+  FormBox[
+   TagBox[
+    TagBox[GridBox[{
+       {
+        TagBox["\<\"t(s)\"\>",
+         HoldForm], 
+        TagBox["\<\"d(ft)\"\>",
+         HoldForm]},
+       {"0.5`", "4.2`"},
+       {"1.`", "16.1`"},
+       {"1.5`", "35.9`"},
+       {"2", "64.2`"}
+      },
+      GridBoxAlignment->{
+       "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+        "RowsIndexed" -> {}},
+      GridBoxDividers->{
+       "Columns" -> {{False}}, "ColumnsIndexed" -> {}, 
+        "Rows" -> {False, True, {False}, False}, "RowsIndexed" -> {}},
+      GridBoxSpacings->{"Columns" -> {
+          Offset[0.27999999999999997`], {
+           Offset[2.0999999999999996`]}, 
+          Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+          Offset[0.2], {
+           Offset[0.4]}, 
+          Offset[0.2]}, "RowsIndexed" -> {}}],
+     {None, OutputFormsDump`HeadedColumns}],
+    Function[BoxForm`e$, 
+     TableForm[BoxForm`e$, TableHeadings -> {None, {"t(s)", "d(ft)"}}]]], 
+   TraditionalForm]], "Output",
+  CellChangeTimes->{{3.7178405014644527`*^9, 3.717840527000506*^9}, 
+    3.717840611679193*^9, {3.7178406464774103`*^9, 3.717840676037196*^9}},
+  ExpressionUUID -> "b00bef3b-d47b-4788-8068-a2eab5888d18"],
+ "\n\nZwr\[OAcute]\[CAcute] uwag\:0119, \:017ce \
+odleg\[LSlash]o\:015b\[CAcute] ",
+ StyleBox["d",
+  FontWeight->"Bold"],
+ " podana zosta\[LSlash]a w stopach (ft).\n\na) wyra\:017a ",
+ StyleBox["d",
+  FontWeight->"Bold"],
+ " w metrach, skorzystaj z konwersji jednostek (",
+ StyleBox["UnitConvert, Quntity",
+  FontWeight->"Bold"],
+ ");\nb) stw\[OAcute]rz tabel\:0119 podobn\:0105 do tej powy\:017cej w \
+programie Mathematica (",
+ StyleBox["TableForm",
+  FontWeight->"Bold"],
+ ");\nd) dokonaj konwersji uzyskanej tabeli do kodu Latex;\nd) wyznacz \
+(dokonuj\:0105c dopasowania, funkcja Fit) sta\[LSlash]\:0105 \
+grawitacyjn\:0105 g."
+}], "Text",
+ CellChangeTimes->{{3.717840425906806*^9, 3.7178404440746803`*^9}, {
+  3.717840739347105*^9, 3.717840882011943*^9}, {3.7178537023168397`*^9, 
+  3.717853716254648*^9}, {3.748917528483715*^9, 3.7489175560025015`*^9}, {
+  3.74891766580045*^9, 3.748917667760809*^9}},
+ ExpressionUUID -> "640cf174-cb2a-43de-8052-78081e307910"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 2", "Section",
+ CellChangeTimes->{{3.717841428799829*^9, 3.717841437304407*^9}, 
+   3.717911061302062*^9, {3.748858028678999*^9, 3.74885802946983*^9}, 
+   3.783183601830003*^9},
+ ExpressionUUID -> "7ff2a50e-c489-4834-9fa6-9b444f86c8c1"],
+
+Cell["\<\
+Uzyskaj 50 wielomian\[OAcute]w przechodz\:0105cych przez punkty: (0,0), (0.2,\
+\[Minus]1), (0.8,1), (1,0).  UWAGA: w zadaniu nie nale\:017cy korzysta\
+\[CAcute] z funkcji Fit! Nie u\:017cywaj r\[OAcute]wnie\:017c funkcji \
+InterpolatingPolynomial etc...! \
+\>", "Text",
+ CellChangeTimes->{{3.717841445537006*^9, 3.717841566407695*^9}, {
+   3.7179109572808876`*^9, 3.71791096349137*^9}, {3.748917731203181*^9, 
+   3.7489177339772973`*^9}, 3.7489178875404882`*^9, {3.783183617517524*^9, 
+   3.7831836209541693`*^9}},
+ ExpressionUUID -> "e3a23c1a-0d21-403d-8b1c-79eec699fdcd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 3", "Section",
+ CellChangeTimes->{{3.751090535016756*^9, 3.751090537891037*^9}, {
+  3.783183701253151*^9, 3.7831837016906247`*^9}},
+ ExpressionUUID -> "cfa5f64f-469a-4fd1-908e-f3a46b6c67b9"],
+
+Cell[TextData[{
+ "Rozwa\:017cmy  ci\:0105g ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["p", 
+    RowBox[{"n", "+", "1"}]], TraditionalForm]],
+  ExpressionUUID -> "a97e818c-0836-4e5c-a341-0b7307a90957"],
+ " = r ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["p", "n"], TraditionalForm]],
+  ExpressionUUID -> "ff0ef75a-7acd-478b-a3d9-d1906bbe3058"],
+ " ( 1 - ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["p", "n"], TraditionalForm]],
+  ExpressionUUID -> "d75edcda-1730-4b09-8265-8315f88effb3"],
+ "), gdzie 0 < a  < 4. Wykonaj rysunek (symulacj\:0119) kolejnych krok\
+\[OAcute]w iteracji. \n\n1) Dla ustalonej warto\:015bci a, narysuj na jednym \
+wykresie funkcje: f(x) = a x (1-x) oraz g(x) = x. Zauwa\:017cmy, \:017ce \n\
+f([0,1]) zawiera si\:0119 w odcinku [0,1]. Na uzyskanym wykresie \
+b\:0119dziemy zaznacza\[CAcute] kolejne kroki iteracji.\n\n2)  W pierwszym \
+kroku wybieramy warto\:015b\[CAcute] ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["x", "0"], TraditionalForm]],
+  ExpressionUUID -> "e0e655d7-cdb3-4740-8bdf-68aaa076db03"],
+ " = ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["p", "0"], TraditionalForm]],
+  ExpressionUUID -> "f8d63ead-2b5a-4981-a28f-46533e3cdd73"],
+ " tak aby  0 < ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["p", "0"], TraditionalForm]],
+  ExpressionUUID -> "a1e20045-cda8-4e26-bd51-ab85411bba66"],
+ " < 1/2. Jest to pierwszy punkt \[LSlash]amanej i ma on \
+wsp\[OAcute]\[LSlash]rz\:0119dne ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    SubscriptBox["x", "0"]}], TraditionalForm]],
+  ExpressionUUID -> "bcc99bbd-1e1c-4791-a1ba-1fb1ad156211"],
+ ",0) \[LSlash]\:0105czy si\:0119 z punktem na paraboli o wsp\[OAcute]\
+\[LSlash]rz\:0119dnych ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    SubscriptBox["x", "0"]}], TraditionalForm]],
+  ExpressionUUID -> "29da1cdb-45fd-440f-9ed9-6059c42f8058"],
+ ",  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"f", "(", 
+    SubscriptBox["x", "0"]}], TraditionalForm]],
+  ExpressionUUID -> "98bf1fc2-3143-4859-951e-3a0a6094bfc6"],
+ ")).\n\n3)  Drugi krok to \[LSlash]amana od punktu ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    SubscriptBox["x", "0"]}], TraditionalForm]],
+  ExpressionUUID -> "8254bacb-cb7a-436e-9c9a-56ec40267210"],
+ ", f ( ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["x", "0"], TraditionalForm]],
+  ExpressionUUID -> "64fe057d-a8c8-4149-b517-a601da5816c9"],
+ ")) do punktu ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{"f", "(", 
+     SubscriptBox["x", "0"]}]}], TraditionalForm]],
+  ExpressionUUID -> "063b563b-1752-4b1b-943e-86c13d2d1894"],
+ "), ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"f", "(", 
+    SubscriptBox["x", "0"]}], TraditionalForm]],
+  ExpressionUUID -> "205e1f31-e0aa-41fb-a7d9-791c6ce4bb7f"],
+ ")), a nast\:0119pnie do punktu ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{"f", "(", 
+     SubscriptBox["x", "0"]}]}], TraditionalForm]],
+  ExpressionUUID -> "34161234-d386-46ec-ae66-ef64f036b708"],
+ "), ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"f", "(", 
+    RowBox[{"f", "(", 
+     SubscriptBox["x", "0"]}]}], TraditionalForm]],
+  ExpressionUUID -> "dd9bd9e0-afd1-466f-9ffd-d9e69568c33b"],
+ ")))\n\n4) Trzeci krok to \[LSlash]amana od punktu  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{"f", "(", 
+     SubscriptBox["x", "0"]}]}], TraditionalForm]],
+  ExpressionUUID -> "834cfdd0-a48d-4a2b-9ca9-ebdb07ee6e73"],
+ "), ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"f", "(", 
+    RowBox[{"f", "(", 
+     SubscriptBox["x", "0"]}]}], TraditionalForm]],
+  ExpressionUUID -> "dff8045e-168a-4123-a711-c3c9fa961804"],
+ "))) do ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{"f", "(", 
+     RowBox[{"f", "(", 
+      SubscriptBox["x", "0"]}]}]}], TraditionalForm]],
+  ExpressionUUID -> "5e4bab74-58eb-4511-87f0-722f77684b75"],
+ ")), ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"f", "(", 
+    RowBox[{"f", "(", 
+     SubscriptBox["x", "0"]}]}], TraditionalForm]],
+  ExpressionUUID -> "f02be5da-8976-4f48-89a7-a79278bbec35"],
+ "))), a nast\:0119pnie do punktu ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{"f", "(", 
+     RowBox[{"f", "(", 
+      SubscriptBox["x", "0"]}]}]}], TraditionalForm]],
+  ExpressionUUID -> "15e2096e-8133-4e51-b887-0ce9c7856c50"],
+ ")), f(",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"f", "(", 
+    RowBox[{"f", "(", 
+     SubscriptBox["x", "0"]}]}], TraditionalForm]],
+  ExpressionUUID -> "b72b0a7c-2dfe-427f-ae96-3646a8b9744d"],
+ ")))) itd.\n\na) Wykonaj rysunek dla 10 kolejnych krok\[OAcute]w, przyjmuj\
+\:0105c za a =3.5, a ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["p", "0"], TraditionalForm]],
+  ExpressionUUID -> "836e1a91-c66b-4703-bcaa-238c2130c171"],
+ "=0.2.\n\nb) Korzystaj\:0105c z funkcji Manipulate wykonaj symulacj\:0119 \
+dla 100 kolejnych krok\[OAcute]w oraz warto\:015bci parametr\[OAcute]w 0 < a \
+< 4 oraz ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"0", "<", 
+    SubscriptBox["p", 
+     RowBox[{" ", "0"}]]}], TraditionalForm]],
+  ExpressionUUID -> "b3eaabfa-003f-4d86-8fec-b279a057015d"],
+ " < 1. Utw\[OAcute]rz plik avi ilustruj\:0105cy symulacj\:0119.\n\nUwaga \
+symulacje z tego zadania znajdziesz tutaj: ",
+ ButtonBox["https://www.youtube.com/watch?v=kPhXRq1ULaU",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://www.youtube.com/watch?v=kPhXRq1ULaU"], None},
+  ButtonNote->"https://www.youtube.com/watch?v=kPhXRq1ULaU"],
+ "\n\nPodpowied\:017a: skorzystaj z funkcji:Show, Graphics, Plot, Line, \
+Prepend, Partition, NestList "
+}], "Text",
+ CellChangeTimes->{{3.751090546351895*^9, 3.7510906035631137`*^9}, {
+   3.751090634529581*^9, 3.7510907990297565`*^9}, {3.7510908515457554`*^9, 
+   3.751090855334649*^9}, {3.7510908871435413`*^9, 3.751090944351627*^9}, {
+   3.7510910154362097`*^9, 3.7510910158594437`*^9}, 3.751091070199504*^9, {
+   3.751091120626128*^9, 3.75109143263068*^9}, {3.7510914652169204`*^9, 
+   3.751091473543942*^9}, {3.7510915049887133`*^9, 3.751091588923365*^9}, {
+   3.7510917583378525`*^9, 3.751092013012884*^9}, 3.751092068519062*^9, {
+   3.751093110828208*^9, 3.7510931108292074`*^9}, 3.7511308949911575`*^9, {
+   3.751130970261318*^9, 3.7511310224333973`*^9}},
+ ExpressionUUID -> "a5c69928-6a23-406c-b563-27b7116b99d7"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1028, 661},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"11.0 for Microsoft Windows (64-bit) (September 21, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 153, 2, 101, "Title"],
+Cell[CellGroupData[{
+Cell[758, 28, 254, 4, 70, "Section"],
+Cell[1015, 34, 2379, 59, 270, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3431, 98, 250, 4, 70, "Section"],
+Cell[3684, 104, 583, 10, 49, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4304, 119, 204, 3, 70, "Section"],
+Cell[4511, 124, 6143, 173, 401, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
