@@ -43,3 +43,15 @@
 - Obwody elektryczne.
 - <a id="raw-url" href="https://github.com/kgraczyk/onisf/blob/main/Lista5_2021.nb" download> Lista5.nb</a>
 
+## Wykład 6
+
+- Grawitacja: 
+        - zagadnienie Ziemia-Słońce; 
+	- spadek swobodny; 
+	- prędkość graniczna
+	- prosty algorytm rozwiązujący równania różniczkowe
+- Procedury: 
+	-With, Block, Module
+- Komentarz o pętlach
+- <a id="raw-url" href="https://github.com/kgraczyk/onisf/blob/main/Lista6_2021.nb" download> Lista6.nb</a>
+
