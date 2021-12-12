@@ -1,0 +1,458 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     16943,        450]
+NotebookOptionsPosition[     15900,        409]
+NotebookOutlinePosition[     16306,        425]
+CellTagsIndexPosition[     16263,        422]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Lista 7", "Title",
+ CellChangeTimes->{{3.720265043835104*^9, 3.720265046419344*^9}, {
+  3.7849938075331*^9, 
+  3.7849938081390753`*^9}},ExpressionUUID->"d950df22-ad18-4190-af1a-\
+9947fc4ddd0a"],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 1", "Section",
+ CellChangeTimes->{{3.7202650491314154`*^9, 
+  3.7202650537479477`*^9}},ExpressionUUID->"060f6170-5890-4d79-acdb-\
+8d4f597003d6"],
+
+Cell[TextData[{
+ "Narysuj trzy r\[OAcute]\:017cne warianty cykloidy rysowanej przez \
+tocz\:0105ce si\:0119 ko\[LSlash]o, z o\[LSlash]\[OAcute]wkiem oddalonym od \
+\:015brodka ko\[LSlash]o o a>R, a<R oraz a=R, gdzie R to promie\:0144 ko\
+\[LSlash]a. Podpowied\:017a: popatrz na pocz\:0105tek filmu: ",
+ ButtonBox["https://www.youtube.com/watch?v=BTPJNPlZSzo",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://www.youtube.com/watch?v=BTPJNPlZSzo"], None},
+  ButtonNote->"https://www.youtube.com/watch?v=BTPJNPlZSzo"]
+}], "Text",
+ CellChangeTimes->{{3.720265056283071*^9, 3.720265309580572*^9}, {
+  3.7202653481010847`*^9, 3.7202653669813547`*^9}, {3.7202655676759233`*^9, 
+  3.7202656797887135`*^9}, {3.7202657266534204`*^9, 3.7202658665589466`*^9}, {
+  3.7202662979732456`*^9, 3.7202663654400964`*^9}, {3.72026682300222*^9, 
+  3.720266879898896*^9}, {3.752339074125801*^9, 3.7523391613687143`*^9}, {
+  3.7523393919421787`*^9, 
+  3.752339429545268*^9}},ExpressionUUID->"a393ad11-93e8-486f-a798-\
+73b111d931b2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 2", "Section",
+ CellChangeTimes->{{3.720265947508629*^9, 
+  3.720265949876466*^9}},ExpressionUUID->"343cc9ab-dd23-4bf8-852a-\
+8710c59c2e5d"],
+
+Cell[TextData[{
+ "a) Sprowad\:017a r\[OAcute]wnanie van der Pola\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     FractionBox[
+      RowBox[{
+       SuperscriptBox["\[DifferentialD]", "2"], "x"}], 
+      RowBox[{"\[DifferentialD]", 
+       SuperscriptBox["t", "2"]}]], "-", 
+     RowBox[{"\[Epsilon]", " ", 
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox["a", "2"], "-", 
+        SuperscriptBox["x", "2"]}], ")"}], 
+      FractionBox[
+       RowBox[{"\[DifferentialD]", "x"}], 
+       RowBox[{"\[DifferentialD]", "t"}]]}], "+", 
+     RowBox[{
+      SuperscriptBox[
+       SubscriptBox["\[Omega]", "0"], "2"], "x"}]}], "=", "0"}], 
+   TraditionalForm]],ExpressionUUID->"88bc1988-d189-4337-b4ab-d97a40e85611"],
+ ",  a=1,  ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[Omega]", "0"], TraditionalForm]],ExpressionUUID->
+  "8e7f2068-ca3b-423e-ae86-8342f5b552bd"],
+ "=1,  \[Epsilon] = 0.05; \n\ndo dw\[OAcute]ch r\[OAcute]wna\:0144 liniowych, \
+wprowadzaj\:0105c zmienne x(t) oraz v(t). \nW tym celu u\:017cyj \
+r\[OAcute]wnania van der Pola i dokonaj w nim odpowiedniego podstawienia ( \
+komenda /. ). Nast\:0119pnie rozwi\:0105\:017c numerycznie te \
+r\[OAcute]wnania ze wzgl\:0119du na zmienne (x,v). \nb) Napisz funkcj\:0119, \
+kt\[OAcute]ra losuj\:0119 pr\:0119dko\:015bci pocz\:0105tkowe z przedzia\
+\[LSlash]u (-1,1) oraz po\[LSlash]o\:017cenia pocz\:0105tkowe z przedzia\
+\[LSlash]u (-1,1) i zwraca rozwi\:0105zanie. Rozwi\:0105zanie to narysuj na \
+wykresie fazowym.  "
+}], "Text",
+ CellChangeTimes->{{3.720265954739583*^9, 3.720266168356777*^9}, {
+  3.752339039408451*^9, 3.7523390565628457`*^9}, {3.7523392110952544`*^9, 
+  3.7523392116778946`*^9}, {3.7849938585140753`*^9, 3.7849938852887306`*^9}, {
+  3.785045811791881*^9, 3.785045816518549*^9}, {3.7850458637920804`*^9, 
+  3.7850458637920804`*^9}, {3.7850766051301465`*^9, 
+  3.7850766071546755`*^9}},ExpressionUUID->"cfa298fc-b6d4-4ae2-85a1-\
+ca9a601ced57"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 3", "Section",
+ CellChangeTimes->{{3.720266172203004*^9, 
+  3.7202661749949284`*^9}},ExpressionUUID->"c3cc3930-ffda-4e0f-b809-\
+49d4ff0b10a1"],
+
+Cell[TextData[{
+ "Rozwi\:0105\:017c problem rzutu uko\:015bnego (",
+ StyleBox["UWAGA:",
+  FontWeight->"Bold"],
+ " w pe\[LSlash]ni w Mathematica\[CloseCurlyQuote]e, nie przepisuj\:0105c z \
+Wikipedii, kartki itp). Za\[LSlash]\[OAcute]\:017c, \:017ce cia\[LSlash]o \
+zosta\[LSlash]o rzucone pod k\:0105tem \[Alpha], z pr\:0119dko\:015bci\:0105 \
+pocz\:0105tkow\:0105 v0. Problem rozpatrz w sta\[LSlash]ym polu grawitacyjnym \
+g."
+}], "Text",
+ CellChangeTimes->{{3.72026618124257*^9, 3.7202662687101126`*^9}, {
+  3.720266379572318*^9, 3.7202663854697886`*^9}, {3.7850458748833714`*^9, 
+  3.7850458757394466`*^9}},ExpressionUUID->"07d45715-e439-4478-8596-\
+d49f7d974912"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 4", "Section",
+ CellChangeTimes->{{3.720266471251304*^9, 
+  3.7202664733072987`*^9}},ExpressionUUID->"21ad8fd7-4d74-4553-abd5-\
+fea611c991bb"],
+
+Cell["\<\
+Rozwi\:0105\:017c metod\:0105 pokazan\:0105 na wyk\[LSlash]adzie \
+(naiwn\:0105) r\[OAcute]wnanie r\[OAcute]\:017cniczkowe:
+
+y\[CloseCurlyQuote][t] + y[t] = Sin[t], y[0]=0.2.
+\
+\>", "Text",
+ CellChangeTimes->{{3.7202664757710896`*^9, 3.7202666024356184`*^9}, {
+   3.752339492312338*^9, 3.7523395289646435`*^9}, 3.7850766257245283`*^9, {
+   3.819522552431615*^9, 
+   3.8195225656861477`*^9}},ExpressionUUID->"8c66e5fb-2662-4ff3-881a-\
+8f21070de816"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 5", "Section",
+ CellChangeTimes->{{3.7214841293596983`*^9, 3.721484131852364*^9}, {
+   3.7214847237794347`*^9, 3.7214847391307187`*^9}, 3.783184075192569*^9, 
+   3.8171015057790956`*^9},ExpressionUUID->"70205a86-b35b-4888-985d-\
+2e08ad78241f"],
+
+Cell[TextData[{
+ "Dla poni\:017cszego obwodu: \na) korzystaj\:0105c z praw Kirchhoffa napisz \
+odpowiednie r\[OAcute]wnania  (opisz rozwi\:0105zanie);\nb) znajd\:017a nat\
+\:0119\:017cenia pr\:0105du na ka\:017cdym oporniku ;\nc) dla jakiej \
+konfiguracji opor\[OAcute]w na oporniku ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["R", "5"], TraditionalForm]],ExpressionUUID->
+  "a4546666-8bd7-46de-9604-75dcb72ffe32"],
+ " nie p\[LSlash]ynie pr\:0105d ; \nd) oblicz warto\:015bci numeryczne pr\
+\:0105d\[OAcute]w ;\ndla U= 12 V, ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["R", "1"], "=", 
+    RowBox[{"2.0", " ", "\[CapitalOmega]"}]}], TraditionalForm]],
+  ExpressionUUID->"e58bef7b-a24b-49e7-bce4-b2399c544a28"],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["R", "2"], "=", 
+    RowBox[{"4.0", " ", "\[CapitalOmega]"}]}], TraditionalForm]],
+  ExpressionUUID->"cbc7ede4-658c-4aa9-84b2-cd5705b7c794"],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["R", "3"], "=", 
+    RowBox[{"6.0", " ", "\[CapitalOmega]"}]}], TraditionalForm]],
+  ExpressionUUID->"9cf1f833-a1a1-4e65-9214-85a052e3968b"],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["R", "4"], "=", 
+    RowBox[{"2.0", " ", "\[CapitalOmega]"}]}], TraditionalForm]],
+  ExpressionUUID->"baf53be5-a29a-4211-bf95-1512af2ffe3e"],
+ " oraz ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["R", "5"], "=", 
+    RowBox[{"3.0", " ", "\[CapitalOmega]"}]}], TraditionalForm]],
+  ExpressionUUID->"ab4b81c9-1be8-4ca8-baef-9c00789811c5"],
+ ". "
+}], "Text",
+ CellChangeTimes->{{3.6932460383986197`*^9, 3.6932463188175154`*^9}, {
+   3.6932845186185465`*^9, 3.6932845193217077`*^9}, {3.7214841364174137`*^9, 
+   3.721484178943694*^9}, {3.721484537043472*^9, 3.7214846101904635`*^9}, {
+   3.721498256926365*^9, 3.721498261879752*^9}, 3.7215442601269093`*^9, {
+   3.783184093312289*^9, 
+   3.7831841028587465`*^9}},ExpressionUUID->"d78ac96a-3fd4-4162-9e6a-\
+cccc201114c8"],
+
+Cell[BoxData[
+ GraphicsBox[{
+   LineBox[{{0.27713178294573654`, 0.13953488372093004`}, {0.6085271317829457,
+     0.1395348837209296}}], 
+   LineBox[{{0.7306201550387597, 0.1395348837209296}, {1.0620155038759689`, 
+    0.13953488372092915`}}], 
+   LineBox[{{0.6085271317829457, 0.16279069767441845`}, {0.6085271317829457, 
+    0.10755813953488325`}}], 
+   LineBox[{{0.7306201550387597, 0.1976744186046516}, {0.7306201550387594, 
+    0.08139534883720717}}], 
+   LineBox[{{0.27713178294573654`, 0.13953488372092937`}, {0.2771317829457364,
+     0.49999999999999944`}}], 
+   LineBox[{{1.0620155038759689`, 0.13953488372092915`}, {1.0620155038759689`,
+     0.4999999999999992}}], 
+   LineBox[{{0.27713178294573654`, 0.49999999999999956`}, {0.3846899224806201,
+     0.4999999999999991}}], 
+   LineBox[{{0.9544573643410853, 0.49999999999999856`}, {1.0620155038759687`, 
+    0.4999999999999981}}], 
+   LineBox[{{0.3846899224806201, 0.4999999999999992}, {0.6666666666666667, 
+    0.27325581395348786`}}], 
+   LineBox[{{0.6666666666666667, 0.27325581395348775`}, {0.9544573643410852, 
+    0.4999999999999989}}], 
+   LineBox[{{0.38468992248062006`, 0.4999999999999989}, {0.6724806201550385, 
+    0.72674418604651}}], 
+   LineBox[{{0.6666666666666666, 0.7267441860465097}, {0.9486434108527134, 
+    0.49999999999999833`}}], 
+   LineBox[{{0.6666666666666665, 0.7267441860465095}, {0.6666666666666665, 
+    0.27325581395348697`}}], 
+   {EdgeForm[{GrayLevel[0.], Opacity[1.], AbsoluteThickness[1]}], EdgeForm[
+    None], GeometricTransformationBox[
+     RectangleBox[{1.1463178294573644, 0.6279069767441859}, \
+{1.2335271317829457, 0.6002906976744181}], {{{{0.7094387986091316, 
+       1.1642940058270752`}, {
+       0.7047670473482932, -1.1720118638202588`}}, {-1.0229615221828232`, 
+       0.5007018127349752}}}]}, 
+   {EdgeForm[{GrayLevel[0.], Opacity[1.], AbsoluteThickness[1]}], EdgeForm[
+    None], GeometricTransformationBox[
+     RectangleBox[{1.1463178294573644, 0.6279069767441859}, \
+{1.2335271317829457, 0.6002906976744181}], {{{{0.7094387986091316, 
+       1.1642940058270752`}, {
+       0.7047670473482932, -1.1720118638202588`}}, {-0.7558741965939165, 
+       0.26774087650424794`}}}]}, 
+   {EdgeForm[{GrayLevel[0.], Opacity[1.], AbsoluteThickness[1]}], EdgeForm[
+    None], GeometricTransformationBox[
+     RectangleBox[{1.1463178294573644, 0.6279069767441859}, \
+{1.2335271317829457, 0.6002906976744181}], {{{{
+       0.7961669217181149, -0.9996034597441011}, {-0.6050770469633603, \
+-1.3152890420770325`}}, {0.47128065697790783`, 2.144932538808403}}}]}, 
+   {EdgeForm[{GrayLevel[0.], Opacity[1.], AbsoluteThickness[1]}], EdgeForm[
+    None], GeometricTransformationBox[
+     RectangleBox[{1.1463178294573644, 0.6279069767441859}, \
+{1.2335271317829457, 0.6002906976744181}], {{{{
+       0.7961669217181149, -0.9996034597441011}, {-0.6050770469633603, \
+-1.3152890420770325`}}, {0.1878275546326086, 1.9167087154210152`}}}]}, 
+   {EdgeForm[{GrayLevel[0.], Opacity[1.], AbsoluteThickness[1]}], EdgeForm[
+    None], GeometricTransformationBox[
+     RectangleBox[{1.1463178294573644, 0.6279069767441859}, \
+{1.2335271317829457, 0.6002906976744181}], {{{{-0.029608822294688697`, \
+-1.6513024272265457`}, {-0.9995615627075305, 0.048914566092459366`}}, {
+       1.7159617703805234`, 1.6593623960695254`}}}]}, InsetBox[
+    StyleBox[Cell[TextData[Cell[BoxData[
+      FormBox[
+       SubscriptBox["R", "1"], TraditionalForm]],ExpressionUUID->
+      "008cc776-7607-460e-b0b0-a6a3c05dd645"]],
+      GeneratedCell->False,
+      CellAutoOverwrite->False,
+      CellBaseline->Baseline,
+      TextAlignment->Left,ExpressionUUID->
+      "f9e65827-0d9c-4aa8-81db-a9045b0eb463"],
+     TextJustification->1,
+     FontFamily->"Times",
+     FontSize->37,
+     FontWeight->Plain,
+     Magnification->0.8999999761581421,
+     FontOpacity->1.,
+     Background->GrayLevel[1.]], {0.4573643410852714, 0.6860465116279069}, {
+    Left, Baseline},
+    Alignment->{Left, Top}], InsetBox[
+    StyleBox[Cell[TextData[Cell[BoxData[
+      FormBox[
+       SubscriptBox["R", "2"], TraditionalForm]],ExpressionUUID->
+      "722022a1-3560-4f0f-a34c-b5fd1bb41c53"]],
+      GeneratedCell->False,
+      CellAutoOverwrite->False,
+      CellBaseline->Baseline,
+      TextAlignment->Left,ExpressionUUID->
+      "db0c4a7a-3407-42d4-b175-1c86e404f7eb"],
+     TextJustification->1,
+     FontFamily->"Times",
+     FontSize->37,
+     FontWeight->Plain,
+     Magnification->0.8999999761581421,
+     FontOpacity->1.,
+     Background->GrayLevel[1.]], {0.8257161699943637, 0.676482755155797}, {
+    Left, Baseline},
+    Alignment->{Left, Top}], InsetBox[
+    StyleBox[Cell[TextData[Cell[BoxData[
+      FormBox[
+       SubscriptBox["R", "5"], TraditionalForm]],ExpressionUUID->
+      "3065383a-b8e6-4952-a1e0-944acaf9c72c"]],
+      GeneratedCell->False,
+      CellAutoOverwrite->False,
+      CellBaseline->Baseline,
+      TextAlignment->Left,ExpressionUUID->
+      "a35260ed-d9bf-4410-9951-7f3bd39deb31"],
+     TextJustification->1,
+     FontFamily->"Times",
+     FontSize->37,
+     FontWeight->Plain,
+     Magnification->0.8999999761581421,
+     FontOpacity->1.,
+     Background->GrayLevel[1.]], {0.7054109151933654, 0.46880132503215166}, {
+    Left, Baseline},
+    Alignment->{Left, Top}], InsetBox[
+    StyleBox[Cell[TextData[Cell[BoxData[
+      FormBox[
+       SubscriptBox["R", "3"], TraditionalForm]],ExpressionUUID->
+      "d67c0398-01f0-4721-8b67-2b0dc4a28a87"]],
+      GeneratedCell->False,
+      CellAutoOverwrite->False,
+      CellBaseline->Baseline,
+      TextAlignment->Left,ExpressionUUID->
+      "d2caf955-73fc-4ded-9490-5aa6ddee6210"],
+     TextJustification->1,
+     FontFamily->"Times",
+     FontSize->37,
+     FontWeight->Plain,
+     Magnification->0.8999999761581421,
+     FontOpacity->1.,
+     Background->GrayLevel[1.]], {0.4035282306732917, 0.28487078675267896}, {
+    Left, Baseline}, {0.10174418604651164, 0.11337209302325583}, {{1., 0.}, {
+    0., 1.}},
+    Alignment->{Left, Top}], InsetBox[
+    StyleBox[Cell[TextData[Cell[BoxData[
+      FormBox[
+       SubscriptBox["R", "4"], TraditionalForm]],ExpressionUUID->
+      "568e37df-726e-455a-9cbf-0d05bcfa0582"]],
+      GeneratedCell->False,
+      CellAutoOverwrite->False,
+      CellBaseline->Baseline,
+      TextAlignment->Left,ExpressionUUID->
+      "49b414c0-bc51-4272-83d6-bb413ece03d0"],
+     TextJustification->1,
+     FontFamily->"Times",
+     FontSize->37,
+     FontWeight->Plain,
+     Magnification->0.8999999761581421,
+     FontOpacity->1.,
+     Background->GrayLevel[1.]], {0.8342294049781114, 0.2935646821350859}, {
+    Left, Baseline},
+    Alignment->{Left, Top}], InsetBox[
+    StyleBox[Cell["U",
+      GeneratedCell->False,
+      CellAutoOverwrite->False,
+      CellBaseline->Baseline,
+      TextAlignment->Left,ExpressionUUID->
+      "e66965a3-f1ae-4fac-8049-667017d83600"],
+     FontFamily->"Times",
+     FontSize->37,
+     FontWeight->Plain,
+     Magnification->0.8999999761581421,
+     FontOpacity->1.,
+     Background->GrayLevel[1.]], {0.6451563347047309, 0.04651162790697616}, {
+    Left, Baseline},
+    Alignment->{Left, Top}]},
+  ContentSelectable->True,
+  ImagePadding->{{0., 0.}, {0., 0.}},
+  ImageSize->{306.6666666666667, 229.33333333333334`},
+  PlotRange->{{0., 1.3333333333333335`}, {0., 1.}},
+  PlotRangePadding->Automatic]], "Input",
+ CellChangeTimes->{
+  3.693245615075217*^9, 3.693245668984233*^9, 3.6932457172251863`*^9, {
+   3.693245758769683*^9, 3.6932457700827875`*^9}, {3.693245826304328*^9, 
+   3.693245864025013*^9}, {3.6932459212619*^9, 
+   3.6932460223821416`*^9}},ExpressionUUID->"54737d98-644c-4744-9de2-\
+c394f3ce1e09"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 6", "Section",
+ CellChangeTimes->{{3.8483255132967267`*^9, 3.8483255155394597`*^9}, 
+   3.848325580251642*^9}],
+
+Cell["\<\
+Stw\[OAcute]rz bombk\:0119 choinkow\:0105, najlepiej w 3D, ale ozdoby 2D r\
+\[OAcute]wnie\:017c s\:0105 akceptowalne. \
+\>", "Text",
+ CellChangeTimes->{{3.848325520472164*^9, 3.8483256124881907`*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{796, 674},
+WindowMargins->{{Automatic, 222}, {Automatic, 47}},
+FrontEndVersion->"11.0 for Microsoft Windows (64-bit) (September 21, 2016)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID -> "4d9e5b4c-e2ab-4f2e-bf03-009d5f541010"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 199, 4, 101, "Title"],
+Cell[CellGroupData[{
+Cell[804, 30, 158, 3, 70, "Section"],
+Cell[965, 35, 1019, 18, 68, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2021, 58, 154, 3, 70, "Section"],
+Cell[2178, 63, 1943, 44, 197, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4158, 112, 156, 3, 70, "Section"],
+Cell[4317, 117, 667, 13, 68, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5021, 135, 156, 3, 70, "Section"],
+Cell[5180, 140, 458, 11, 87, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5675, 156, 257, 4, 70, "Section"],
+Cell[5935, 162, 1974, 53, 125, "Text"],
+Cell[7912, 217, 7586, 175, 244, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15535, 397, 124, 2, 70, "Section"],
+Cell[15662, 401, 210, 4, 30, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
