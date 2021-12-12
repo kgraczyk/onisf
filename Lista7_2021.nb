@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     16943,        450]
-NotebookOptionsPosition[     15900,        409]
-NotebookOutlinePosition[     16306,        425]
-CellTagsIndexPosition[     16263,        422]
+NotebookDataLength[     16973,        451]
+NotebookOptionsPosition[     15930,        410]
+NotebookOutlinePosition[     16336,        426]
+CellTagsIndexPosition[     16293,        423]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -401,9 +401,10 @@ Cell["Zadanie 6", "Section",
 
 Cell["\<\
 Stw\[OAcute]rz bombk\:0119 choinkow\:0105, najlepiej w 3D, ale ozdoby 2D r\
-\[OAcute]wnie\:017c s\:0105 akceptowalne. \
+\[OAcute]wnie\:017c s\:0105 akceptowalne.\t \
 \>", "Text",
- CellChangeTimes->{{3.848325520472164*^9, 3.8483256124881907`*^9}}]
+ CellChangeTimes->{{3.848325520472164*^9, 3.8483256124881907`*^9}, 
+   3.8483256985059676`*^9}]
 }, Open  ]]
 }, Open  ]]
 },
@@ -449,7 +450,7 @@ Cell[7912, 217, 7586, 175, 244, "Input"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[15535, 397, 124, 2, 70, "Section"],
-Cell[15662, 401, 210, 4, 30, "Text"]
+Cell[15662, 401, 240, 5, 30, "Text"]
 }, Open  ]]
 }, Open  ]]
 }
