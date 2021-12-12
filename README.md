@@ -55,3 +55,12 @@
 - Komentarz o pętlach
 - <a id="raw-url" href="https://github.com/kgraczyk/onisf/blob/main/Lista6_2021.nb" download> Lista6.nb</a>
 
+## Wykład 7
+
+- Metoda wariacyjna. 
+- Formalizm lagrangianowski. 
+- Podwójne wahadło. 
+- Klin i bloczek.
+- Wahadło z siłą wymuszającą.
+- Sferyczne wahadło.
+- <a id="raw-url" href="https://github.com/kgraczyk/onisf/blob/main/Lista7_2021.nb" download> Lista7.nb</a>
