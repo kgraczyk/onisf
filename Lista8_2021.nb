@@ -1,0 +1,220 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      8687,        210]
+NotebookOptionsPosition[      7818,        174]
+NotebookOutlinePosition[      8196,        190]
+CellTagsIndexPosition[      8153,        187]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Lista 8", "Title",
+ CellChangeTimes->{{3.720265043835104*^9, 3.720265046419344*^9}, 
+   3.7226941022243156`*^9, 3.7856050455264893`*^9},
+ ExpressionUUID -> "b912bf1c-f2c5-407a-bea6-ebf208afd7c4"],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 1", "Section",
+ CellChangeTimes->{{3.72275214291875*^9, 3.7227521450824757`*^9}, {
+  3.7541556282758365`*^9, 3.7541556285487804`*^9}, {3.7541556741131086`*^9, 
+  3.7541556747751956`*^9}, {3.78560515986364*^9, 3.785605159944567*^9}},
+ ExpressionUUID -> "2a6ecf8a-d1df-4bc7-b27f-f3989a0ce270"],
+
+Cell[TextData[{
+ "a) Napisz funkcje, kt\[OAcute]ra zwraca warto\:015b\[CAcute] sprz\:0119\
+\:017con\:0105 (zespolenie), u\:017cyj wzorca! nie u\:017cywaj\:0105c funkcji \
+Conjugate.\n\nb) Uzyskaj list\:0119 wszystkich pod-wyra\:017ce\:0144 na \
+poziomie dwa oraz cztery wyra\:017cenia:\n1 + 2 ( -\[Pi]/2 + x) + 2 ( \
+-\[Pi]/2 + ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    RowBox[{"x", ")"}], "2"], TraditionalForm]],
+  ExpressionUUID -> "4632f67f-b7e3-4bc2-8a73-300b70840ac1"],
+ "+ 8/3 ( -\[Pi]/2 + ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    RowBox[{"x", ")"}], "3"], TraditionalForm]],
+  ExpressionUUID -> "107d4196-7604-45bd-8b1c-180998134401"],
+ "\n\nc) Rozwa\:017c wyra\:017cenie (x+y)^20. U\:017cywaj\:0105c funkcji \
+Select usu\:0144 wszystkie wyra\:017cenia zawieraj\:0105ce x oraz y \
+podniesione do dowolnej pot\:0119gi ale nie x ani y.\n\nd) U\:017cywaj\:0105c \
+funkcji Map pomn\[OAcute]\:017c obydwie strony r\[OAcute]wnania x^2/(x-1) == \
+1/(1-x) przez (1-x)^2 i dokonaj uproszczenia tylko lewej strony.\n\ne) \
+Zdefiniuj funkcje, kt\[OAcute]ra bierze tylko dwa argumenty, przy czym \
+pierwszy jest symbolem, a drugi\nliczba ca\[LSlash]kowita. Funkcja zwraca \
+iloczyn symbolu z liczba ca\[LSlash]kowita. Je\:015bli drugi argument jest \
+pomini\:0119ty, w\[OAcute]wczas przyjmuje on warto\:015b\[CAcute] \
+domy\:015blna 7.\n"
+}], "Text",
+ CellChangeTimes->{{3.7227521486019225`*^9, 3.7227521824946795`*^9}, {
+  3.7541556178604193`*^9, 3.7541556203474636`*^9}, {3.785605093393404*^9, 
+  3.785605150673544*^9}, {3.7856052173694286`*^9, 3.785605219930106*^9}, {
+  3.819907636143032*^9, 3.8199076401127033`*^9}},
+ ExpressionUUID -> "2206ec2c-2bdf-4d7a-ba58-459cfa9bf5c4"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 2", "Section",
+ CellChangeTimes->{{3.7202650491314154`*^9, 3.7202650537479477`*^9}, {
+  3.7856051920620494`*^9, 3.7856051921658316`*^9}, {3.7856052842705836`*^9, 
+  3.7856052846659236`*^9}, {3.819907671969365*^9, 3.8199076722017546`*^9}},
+ ExpressionUUID -> "5938a6d9-e646-452f-adf8-13764ddfaccd"],
+
+Cell["\<\
+Rozwa\:017c, problem rzutu uko\:015bnego z oporem powietrza, proporcjonalnym \
+do pr\:0119dko\:015bci ze wsp\[OAcute]\[LSlash]czynnikiem t\[LSlash]umienia b \
+= 0.1 N s/m. Niech cia\[LSlash]o o masie 1 kg zosta\[LSlash]o wyrzucone pod k\
+\:0105tem \[Alpha] = 30\[Degree], 40\[Degree] i 65\[Degree]  do pod\[LSlash]o\
+\:017ca z pr\:0119dko\:015bci\:0105 pocz\:0105tkowa 20 m/s. Zak\[LSlash]adaj\
+\:0105c, \:017ce sta\[LSlash]a grawitacji wynosi g=9.81 m/s^2: 
+
+a) Napisz r\[OAcute]wnania ruchu.
+b) Rozwi\:0105\:017c r\[OAcute]wnania ruchu dla trzech mo\:017cliwych \
+k\:0105t\[OAcute]w rzutu.
+c) Narysuj trajektori\:0119 ruchu dla trzech przypadk\[OAcute]w.
+d) Narysuj dla trzech przypadk\[OAcute]w ruch w przestrzeni fazowej.\
+\>", "Text",
+ CellChangeTimes->{{3.720265056283071*^9, 3.720265309580572*^9}, {
+   3.7202653481010847`*^9, 3.7202653669813547`*^9}, {3.7202655676759233`*^9, 
+   3.7202656797887135`*^9}, {3.7202657266534204`*^9, 
+   3.7202658665589466`*^9}, {3.7202662979732456`*^9, 
+   3.7202663654400964`*^9}, {3.72026682300222*^9, 3.720266879898896*^9}, {
+   3.722694194708102*^9, 3.7226942049932594`*^9}, 3.722694236088872*^9, {
+   3.7227517391656227`*^9, 3.722751776793708*^9}, {3.722751823107583*^9, 
+   3.7227518293287306`*^9}, 3.722751873140457*^9, {3.785605064372374*^9, 
+   3.7856050761898203`*^9}, {3.785605317830356*^9, 3.7856053181560197`*^9}},
+ ExpressionUUID -> "e6633845-6ad4-4ee6-9070-4de0a113ddd5"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 3", "Section",
+ CellChangeTimes->{{3.724522095780693*^9, 3.7245221226552305`*^9}, {
+  3.7541558389368916`*^9, 3.7541558393558207`*^9}, {3.78560519819275*^9, 
+  3.7856051985186005`*^9}, {3.7856052870321794`*^9, 3.7856052874387927`*^9}, {
+  3.8199076765580235`*^9, 3.819907687806415*^9}},
+ ExpressionUUID -> "b4d130c5-5b59-440c-90c9-064d9d09ac2e"],
+
+Cell["\<\
+Rozwa\:017c wahad\[LSlash]o podw\[OAcute]jne. Wykonaj symulacje ruchu wahad\
+\[LSlash]a przyjmuj\:0105c stosunek d\[LSlash]ugo\:015bci wahade\[LSlash] \
+jako 1 : 2 oraz stosunek mas 2 : 1.\
+\>", "Text",
+ CellChangeTimes->{{3.7245220995649843`*^9, 3.7245221129520683`*^9}},
+ ExpressionUUID -> "ceaff27c-6456-41a8-b31e-ab5a7acffe93"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 4", "Section",
+ CellChangeTimes->{{3.7245222731867533`*^9, 3.7245222750140142`*^9}, {
+  3.754155852526472*^9, 3.754155853208096*^9}, {3.785605239298893*^9, 
+  3.785605239740678*^9}, {3.7856053394165654`*^9, 3.7856053398147116`*^9}, {
+  3.8199076816643414`*^9, 3.8199076824301853`*^9}},
+ ExpressionUUID -> "f766dc09-4fad-43c6-a9f8-0bfe347c0448"],
+
+Cell["\<\
+Rozwa\:017c trzy \[LSlash]adunki w konfiguracjach q = (-1,-1, 1), q = (-1, 1, \
+1), q = (1, 1, 1), kt\[OAcute]re po\[LSlash]o\:017cone s\:0105 na wierzcho\
+\[LSlash]kach tr\[OAcute]jk\:0105ta r\[OAcute]wnobocznego o d\[LSlash]ugo\
+\:015bci boku 1. Narysuj powierzchnie ekwipotencjalne oraz linie si\[LSlash] \
+pola elektrostatycznego. UWAGA: skorzystaj z metody przedstawionej na wyk\
+\[LSlash]adzie, zatem nale\:017cy u\:017cy\[CAcute] funkcji FixedPointList!\
+\>", "Text",
+ CellChangeTimes->{{3.7245222780780106`*^9, 3.7245223557171383`*^9}, {
+  3.7856052321395593`*^9, 3.785605234609788*^9}},
+ ExpressionUUID -> "2e225de4-0adc-48e2-8209-d52c73c45781"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Zadanie 5", "Section",
+ CellChangeTimes->{{3.7190776250309625`*^9, 3.7190776272616982`*^9}, {
+  3.751092026769986*^9, 3.751092027029493*^9}, {3.7856054087964277`*^9, 
+  3.7856054089804497`*^9}, {3.8199076846935263`*^9, 3.819907691067377*^9}},
+ ExpressionUUID -> "762e19e5-6435-4d7e-baa3-a4b603f9bd0b"],
+
+Cell[TextData[{
+ "a) Wyznacz po\[LSlash]o\:017cenia i pr\:0119dko\:015bci trzech \
+odwa\:017cnik\[OAcute]w y1, y2 oraz y3 o tej samej masie M, zawieszonych na \
+trzech spr\:0119\:017cynach o modu\[LSlash]ach Younga k1, k2 oraz k3.\n\nb) \
+Przyjmij odpowiednie warto\:015bci liczbowe i narysuj na jednym wykresie po\
+\[LSlash]o\:017cenia w zale\:017cno\:015bci od czasu.\n\nc) Przyjmij \
+odpowiednie warto\:015bci liczbowe i narysuj na jednym wykresie ruch odwa\
+\:017cnik\[OAcute]w w przestrzeni fazowej.\n\nPodpowied\:017a:  zobacz ",
+ ButtonBox["http://www.efunda.com/formulae/vibrations/mdof_eom.cfm",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://www.efunda.com/formulae/vibrations/mdof_eom.cfm"], None},
+  ButtonNote->"http://www.efunda.com/formulae/vibrations/mdof_eom.cfm"],
+ "\n  "
+}], "Text",
+ CellChangeTimes->{{3.7190776364149237`*^9, 3.7190779042727923`*^9}, {
+  3.719121867819107*^9, 3.719121869806815*^9}, {3.7511311540453825`*^9, 
+  3.7511311764437084`*^9}},
+ ExpressionUUID -> "39daa0de-94c5-4bde-bc1d-55380686e770"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1366, 685},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+Magnification:>1.5 Inherited,
+FrontEndVersion->"11.0 for Microsoft Windows (64-bit) (September 21, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 201, 3, 150, "Title"],
+Cell[CellGroupData[{
+Cell[806, 29, 305, 4, 106, "Section"],
+Cell[1114, 35, 1697, 32, 446, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2848, 72, 311, 4, 106, "Section"],
+Cell[3162, 78, 1435, 23, 245, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4634, 106, 359, 5, 105, "Section"],
+Cell[4996, 113, 341, 6, 105, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5374, 124, 358, 5, 105, "Section"],
+Cell[5735, 131, 664, 10, 105, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6436, 146, 307, 4, 105, "Section"],
+Cell[6746, 152, 1044, 18, 105, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
