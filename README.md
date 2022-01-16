@@ -64,3 +64,14 @@
 - Wahadło z siłą wymuszającą.
 - Sferyczne wahadło.
 - <a id="raw-url" href="https://github.com/kgraczyk/onisf/blob/main/Lista7_2021.nb" download> Lista7.nb</a>
+
+## Wykład 8
+
+- Elementy programowania: 
+	- atomy i wyrażenia złożone
+	- funkcje: Select, Level
+	- wzorce, testy, warunki, równoważności struktur 
+	- SetDelayed, RuleDelayed, 
+	- ., .., `_`, `__`, `___`, /;, :, ? etc. `_.`
+	- Wartości domyślne.
+- - <a id="raw-url" href="https://github.com/kgraczyk/onisf/blob/main/Lista8_2021.nb" download> Lista8.nb</a>
